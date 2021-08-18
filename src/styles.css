@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+#map {
+    height:800px;
+  width: 100%;
+  }
+  
+  .my-custom-scrollbar {
+    position: relative;
+    height: 700px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+
+    thead tr th { 
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: #ffffff;
+    }
+
+    @media (min-width: 992px) {
+        .modal-lg,
+        .modal-xl {
+          max-width: 800px;
+        }
+      }
+      
+      @media (min-width: 1200px) {
+        .modal-xl {
+          max-width: 1140px;
+        }
+      }

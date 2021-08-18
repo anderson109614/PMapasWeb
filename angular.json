@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "PMapasWeb"
+  "defaultProject": "PMapasWeb",
+  "cli": {
+    "analytics": false
+  }
 }
