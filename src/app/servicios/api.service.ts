@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class ApiService {
   
   constructor(private http: HttpClient) { }
-  url='http://192.168.1.14:3000/';
+  url='http://137.184.15.154:3000/';
 
   getDispositivos() { 
    

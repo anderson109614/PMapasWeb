@@ -30,7 +30,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "rxjs-compat",
+              "socket.io-client"
+            
+           ]
           },
           "configurations": {
             "production": {

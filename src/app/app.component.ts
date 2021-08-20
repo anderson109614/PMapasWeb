@@ -84,7 +84,8 @@ export class AppComponent implements OnInit {
 
   }
   socket: any;
-  readonly url: string = "http://192.168.1.14:3000/";
+  readonly url: string = "http://137.184.15.154:3000/";
+  //readonly url: string = "http://192.168.1.12:3000/";
   listen(eventName: string) {
     return new Observable((Subscriber) => {
       this.socket.on(eventName, (data: unknown) => {
